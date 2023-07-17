@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to do list</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="section-to-do-list">
+        <div class="container">
+            <div class="heading-container">
+                <h1> My To do list</h1>
+                <img src="images/todo.png" alt="to do list" width="70">
+            </div>
+            <div class="list-container">
+                <div class="input-container">
+                    <input id="input-box" class="input" type="text" placeholder="Add Task to do">
+                    <button class="btn">Add Task</button>
+                </div>
+                <div>
+                    <ul id="list-container" class="list-item-container">
+                        <!-- <li class="checked">
+                            hello
+                        <span><ion-icon  class="li-icon" name="trash-outline"></ion-icon></span>
+                        </li> -->
+                        <!-- <li> task 2</li>
+                        <li>task 3</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
